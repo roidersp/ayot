@@ -1,4 +1,8 @@
 
+#nav-bar-wrapper{
+	display: none;
+}
+
 .indepth_cover_back_body{
 	display: none;
 }
@@ -878,10 +882,19 @@ height: 300px;
 	.indepth_parallax_back{
 		background-attachment: initial;
 	}
+	
 }
 
 @media screen and (max-height: 1024px) and (max-width: 768px){
 	.indepth_parallax_back{
 		background-attachment: initial;
+	}
+	#indepth_cover .indepth_parallax_back{
+		background-image: url(../images/mobile.jpg);
+	}
+	
+	#indepth_cover .indepth_parallax_back{
+		background-size: 100% auto;
+		background-position: 50% 50%;
 	}
 }
